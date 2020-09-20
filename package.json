@@ -12,8 +12,8 @@
   "devDependencies": {},
   "scripts": {
     "dev": "postcss css/tailwind.css -o public/assets/style.css",
-    "build": "NODE_ENV=production postcss css/tailwind.css -o public/assets/style.css"
-
+    "build": "NODE_ENV=production postcss css/tailwind.css -o public/assets/style.css",
+    "build-windows": "cross-env NODE_ENV=production postcss css/tailwind.css -o public/assets/style.css"
   
   },
   "keywords": [],

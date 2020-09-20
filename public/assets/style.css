@@ -660,6 +660,10 @@ body {
   font-size: 1.25rem;
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+}
+
 .text-4xl {
   font-size: 2.25rem;
 }
@@ -801,6 +805,10 @@ body {
     .md\:container {
       max-width: 1280px;
     }
+  }
+
+  .md\:text-4xl {
+    font-size: 2.25rem;
   }
 
   .md\:mx-auto {
