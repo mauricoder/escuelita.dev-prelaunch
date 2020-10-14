@@ -695,6 +695,10 @@ body {
   margin-left: 2rem;
 }
 
+.mb-16 {
+  margin-bottom: 4rem;
+}
+
 .p-10 {
   padding: 2.5rem;
 }
@@ -705,6 +709,16 @@ body {
 
 .relative {
   position: relative;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-gray-100 {
+  --text-opacity: 1;
+  color: #f7fafc;
+  color: rgba(247, 250, 252, var(--text-opacity));
 }
 
 .text-gray-800 {
